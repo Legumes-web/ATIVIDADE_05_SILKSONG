@@ -1,3 +1,23 @@
-.content{
-    background-image:url("./assets/images/Background.png")
+#content{
+    height: 500px;
+    padding: 80px;
+    background-image: url("./assets/images/Background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+#content img{
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    padding-bottom: 100px;
+    height: 300px;
+    border: solid;
+}
+#tit{
+    padding: 10px 20px 10px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    text-align: center;
+    border: solid;
+    border-radius: 25px;
 }
