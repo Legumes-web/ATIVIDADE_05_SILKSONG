@@ -1,0 +1,35 @@
+#plataforma{
+    background-color: #07060c;
+}
+#plataforma img{
+    position: relative;
+    top: -130px;
+    right: -420px;
+    margin: 0;
+    padding: 0;
+    border: hidden;
+    border-radius: 15px;
+    height: 300px;
+    width: 500px;
+}
+#plataforma h1{
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top: -80px;
+    right: 0px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+#plataforma div{
+    display: flex;
+    gap: 50px;
+    justify-content: center
+}
+#plataforma div img{
+    position: relative;
+    top: -10px;
+    left: 80px;
+    height: 80px;
+    width: 10%;
+}

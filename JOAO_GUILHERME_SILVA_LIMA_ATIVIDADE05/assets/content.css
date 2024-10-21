@@ -1,23 +1,30 @@
 #content{
     height: 500px;
     padding: 80px;
-    background-image: url("./assets/images/Background.png");
+    background-image: url("./images/Background.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; 
 }
 #content img{
-    padding: 10px 20px 10px 20px;
+    position: relative;
+    left: 380px;
+    bottom: -100px;
     text-align: center;
-    padding-bottom: 100px;
-    height: 300px;
-    border: solid;
+    height: 235px;
 }
 #tit{
-    padding: 10px 20px 10px 20px;
+    position: relative;
+    top: 90px;
+    right: -470px;
+    bottom: -100px;
+    color: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: small;
-    text-align: center;
-    border: solid;
+    align-items: center;
     border-radius: 25px;
+    border: 0.5px solid white;
+    padding: 10px 20px;
+    margin: 0; 
+    display: inline-block; 
 }

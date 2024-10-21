@@ -21,13 +21,14 @@ html{
     text-align: center;
     padding: 10px 20px;
     text-decoration: none;
-    gap: 200px;
+    gap: 20px;
+    justify-content: space-between;
 }
 .navbar img{
     height: 50px;
-    gap: 2000px;
+    gap: 20px;
 }
 #team{
-    border: solid;
+    border: 1px solid;
     border-radius: 25px;
 }
