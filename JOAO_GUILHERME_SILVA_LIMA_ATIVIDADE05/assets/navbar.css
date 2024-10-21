@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
 }
 html{
     scroll-behavior: smooth;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
 }
 .navbar{
     background-color: black;
@@ -12,23 +15,23 @@ html{
     top: 10px;
     align-items: center;
     text-decoration: none;
-    width: 100%;
+    max-width: 1366px;
     padding: 10px 30px;
     font-size: smaller;
+    gap: 30px;
 }
 .navbar a {
     color: white;
     text-align: center;
     padding: 10px 20px;
     text-decoration: none;
-    gap: 20px;
     justify-content: space-between;
 }
 .navbar img{
     height: 50px;
     gap: 20px;
 }
-#team{
+.team{
     border: 1px solid;
     border-radius: 25px;
 }

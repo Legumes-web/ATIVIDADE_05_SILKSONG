@@ -1,25 +1,24 @@
-#content{
-    height: 500px;
+.content{
+    height: 700px;
     padding: 80px;
     background-image: url("./images/Background.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; 
 }
-#content img{
+.content img{
     position: relative;
     left: 380px;
-    bottom: -100px;
+    bottom: -90px;
     text-align: center;
-    height: 235px;
+    height: 250px;
 }
-#tit{
+.tit{
     position: relative;
     top: 90px;
     right: -470px;
     bottom: -100px;
     color: white;
-    font-family: 'Times New Roman', Times, serif;
     font-size: small;
     align-items: center;
     border-radius: 25px;
@@ -27,4 +26,110 @@
     padding: 10px 20px;
     margin: 0; 
     display: inline-block; 
+}
+.plataforma{
+    background-color: #07060c;
+}
+.plataforma img{
+    position: relative;
+    top: -130px;
+    right: -420px;
+    margin: 0;
+    padding: 0;
+    border: hidden;
+    border-radius: 15px;
+    height: 300px;
+    width: 500px;
+}
+.plataforma h2{
+    position: relative;
+    top: -80px;
+    right: 0px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+.plataforma div{
+    display: flex;
+    gap: 50px;
+    justify-content: center
+}
+.plataforma div img{
+    position: relative;
+    top: -10px;
+    left: 80px;
+    height: 80px;
+    width: 10%;
+}
+.apresentação h1{
+    padding: 80px;
+    background-color: #07060c;
+    font-size: small,;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+.container{
+    background-color: #07060c;
+}
+.caixa{
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-radius: 10px;
+    border-width: 0.5px;
+    margin: 30px 30px;
+}
+
+.texto {
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF;
+    font-family: Montserrat;
+}
+
+p {
+    padding: 0% 10px;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.img1 {
+    height: 300px;
+    margin: 30px 50px 30px 0px;
+    border-radius: 15px;
+    border-width: 1px;
+}
+
+.img2 {
+    height: 300px;
+    margin: 30px 0px 30px 50px;
+    border-radius: 15px;
+    border-width: 1px;
+}
+.screenshot4{
+    background-color: #07060c;
+}
+.screenshot4 img{
+    height: 400px;
+    border: hidden;
+    border-radius: 10px;
+    position: relative;
+    left: 270px;
+}
+footer{
+    padding: 40px;
+    background-color: #07060c;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    color: #FFFFFF;
+    font-family: Montserrat;
+
+}
+.Social a{
+    text-decoration: none;
+    color: #FFFFFF;
 }
