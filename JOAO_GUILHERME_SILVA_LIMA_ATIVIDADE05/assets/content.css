@@ -10,22 +10,20 @@
     position: relative;
     left: 380px;
     bottom: -90px;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
     height: 250px;
 }
 .tit{
-    position: relative;
-    top: 90px;
-    right: -470px;
-    bottom: -100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
     font-size: small;
-    align-items: center;
     border-radius: 25px;
     border: 0.5px solid white;
     padding: 10px 20px;
-    margin: 0; 
-    display: inline-block; 
+    margin: 40px;
 }
 .plataforma{
     background-color: #07060c;
@@ -38,8 +36,8 @@
     padding: 0;
     border: hidden;
     border-radius: 15px;
-    height: 300px;
-    width: 500px;
+    height: 400px;
+    width: 600px;
 }
 .plataforma h2{
     position: relative;
@@ -51,15 +49,16 @@
 }
 .plataforma div{
     display: flex;
-    gap: 50px;
-    justify-content: center
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
 }
 .plataforma div img{
     position: relative;
     top: -10px;
     left: 80px;
-    height: 80px;
-    width: 10%;
+    height: 200px;
+    width: 170px;
 }
 .apresentação h1{
     padding: 80px;
