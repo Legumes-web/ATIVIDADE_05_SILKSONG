@@ -1,65 +1,76 @@
-.content{
-    height: 700px;
-    padding: 80px;
-    background-image: url("./images/Background.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; 
+body{
+    background-color: #07060c;
 }
-.content img{
-    position: relative;
-    left: 380px;
-    bottom: -90px;
-    align-items: center;
+main{
+    background-image: url("./images/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.content{
+
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.logosilk{
     height: 250px;
 }
+.promosilk{
+    height: 472px ;
+    width: 820px ;
+    border-radius: 24px;
+    box-shadow:inset 70px;
+}
 .tit{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 200px;
     color: white;
     font-size: small;
     border-radius: 25px;
     border: 0.5px solid white;
     padding: 10px 20px;
-    margin: 40px;
 }
+
 .plataforma{
+    height: 700px;
     background-color: #07060c;
 }
-.plataforma img{
-    position: relative;
-    top: -130px;
-    right: -420px;
-    margin: 0;
-    padding: 0;
-    border: hidden;
-    border-radius: 15px;
-    height: 400px;
-    width: 600px;
+.imageplat{
+    display: flex;
+    align-items: center;
+    gap: 20px; 
 }
 .plataforma h2{
-    position: relative;
-    top: -80px;
-    right: 0px;
-    text-align: center;
-    justify-content: center;
+    margin-top: 100px;
     color: white;
-}
-.plataforma div{
+    margin-bottom: 50px;
     display: flex;
-    gap: 80px;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
-.plataforma div img{
-    position: relative;
-    top: -10px;
-    left: 80px;
-    height: 200px;
-    width: 170px;
+.steam{
+    width: 253px;
+    height: 96px;
 }
+.humble{
+    width: 238.65px;
+    height: 404px;
+}
+.nitendo{
+    width: 345px;
+    height: 121px;
+}
+.xbox{
+    width: 237px;
+    height: 165px;
+}
+.gog{
+    width: 136px;
+    height: 133px;
+}
+
 .apresentação h1{
     padding: 80px;
     background-color: #07060c;
@@ -71,6 +82,15 @@
 .container{
     background-color: #07060c;
 }
+.titulo{
+    margin-left: 130px;
+}
+.titulo2{
+    margin-left: 250px;
+}
+.titulo3{
+    margin-left: 120px;
+}
 .caixa{
     border-style: solid;
     border-color: #FFFFFF;
@@ -81,7 +101,6 @@
 
 .texto {
     display: flex;
-    flex-direction: row;
     color: #FFFFFF;
     font-family: Montserrat;
 }
@@ -91,7 +110,9 @@ p {
     color: #FFFFFF;
     font-family: Montserrat;
     font-size: 15px;
-    text-align: justify;
+    text-align: center;
+    align-items: center;
+    
 }
 
 .img1 {
@@ -108,27 +129,38 @@ p {
     border-width: 1px;
 }
 .screenshot4{
+    gap: 100px;
     background-color: #07060c;
 }
 .screenshot4 img{
+    margin-left: 300px;
     height: 400px;
     border: hidden;
     border-radius: 10px;
-    position: relative;
-    left: 270px;
+    align-items: center;
+    justify-content: center;
 }
 footer{
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
     padding: 40px;
     background-color: #07060c;
-    font-size: 15px;
+    font-size: 10px;
     display: flex;
-    flex-direction: row;
-    gap: 100px;
     color: #FFFFFF;
     font-family: Montserrat;
-
 }
+
+footer img{
+    height: 80px;
+    display: flex;
+    flex-direction: end;
+}
+
 .Social a{
+    display: flex;
     text-decoration: none;
     color: #FFFFFF;
+    flex-direction: row;
 }
